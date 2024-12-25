@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title>CSS Guide</title> 
+<style type="text/css"> 
+p { 
+ color: red; 
+ } 
+p em { 
+ color: green; 
+ } 
+</style> 
+</head> 
+<body> 
+<h1>Ini adalah heading 1</h1> 
+<p>Ini adalah paragraf. Ini adalah paragraf. Ini adalah paragraf. Ini 
+adalah paragraf. Ini adalah paragraf. Ini adalah paragraf. Ini adalah 
+paragraf. Ini adalah paragraf. <em>Ini adalah huruf dicetak 
+miring</em>. Ini adalah paragraf. Ini adalah paragraf. Ini adalah 
+paragraf. Ini adalah paragraf. </p> 
+<h1><em>Ini adalah heading 1</em></h1> 
+<p>Ini adalah paragraf. Ini adalah paragraf. Ini adalah paragraf. Ini 
+adalah paragraf. Ini adalah paragraf. Ini adalah paragraf. Ini adalah 
+paragraf. Ini adalah paragraf. <em>Ini adalah huruf dicetak 
+miring</em>. Ini adalah paragraf. Ini adalah paragraf. Ini adalah 
+paragraf. Ini adalah paragraf. </p> 
+</body> 
+</html>
+
+<!-- Dengan Anda mendeklarasikan style warna hijau untuk elemen <em>, maka style 
+tersebut akan berlaku untuk setiap elemen tersebut (termasuk pada bagian heading). 
+Tentu saja hal ini membuat tampilan halaman web tidak bagus, karena style heading 
+menjadi tidak konsisten (terdapat heading yang berwarna hijau). Lantas.. bagaimana cara 
+mengatur style supaya warna hijau hanya berlaku untuk emphasize yang terletak di dalam 
+paragraf saja? Untuk itu Anda harus mengubah deklarasi stylenya menjadi seperti berikut 
+<style type="text/css"> 
+p { 
+ color: red; 
+ }
+ p em { 
+ color: green; 
+ } 
+</style> 
+Maksud dari code yang bercetak merah tersebut adalah bahwa style warna hijau 
+diterapkan pada elemen emphasize <em> yang berada di dalam elemen paragraf <p>.  -->

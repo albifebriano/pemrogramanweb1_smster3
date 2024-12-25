@@ -1,0 +1,106 @@
+<html>
+<head>
+	<title>IT UNSAM</title>
+	<link rel="stylesheet" type="text/css" media="all" href="style7.css">
+</head>
+<body>
+	<div id="layout">
+		<div id="header">
+		<img src="header.gif" class="header">
+		</div>
+		
+		<div id="runningtext"> 
+		<marquee behavior="scroll" scrollamount="3" onmouseover="this.stop();" 
+		onmouseout="this.start();" direction="left">
+			Selamat Datang di Website Saya
+		</marquee>
+		</div>
+		
+		<div id="menu">
+				<ul>
+					<li><a href="index7.html">Beranda</a></li>
+				</ul>
+				
+				<ul>
+					<li><a href="#">Profil Fakultas</a>
+						<ul>
+						<li> <a href="#"> Fakultas Teknik </a></li>
+						<li> <a href="#"> Teknik Informatika </a></li>
+					</ul>
+
+					</li>
+
+				</ul>
+
+				<ul>
+					<li><a href="profil.html">Tentang Saya</a></li>
+				</ul>
+				
+				<ul>
+					<li><a href="kontak.html">Kontak Kami</a>
+					<ul>
+						<li>
+							<a href="#"> FAQ</a>
+							<a href="#"> Media Sosial</a>
+							<a href="#"> Peta Lokasi</a>
+						</li>
+					</li>
+					</ul>
+				</ul>
+				<ul>
+					<li><a href="#">Info</a>
+						<ul>
+							<li>
+								<a href="#"> Jam Operasional</a>
+								<a href="#"> Testimoni</a>
+								<a href="#"> Berita Baru</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul>
+					<li><a href="datakaryawan.php">Data Karyawan</a></li>
+				</ul>
+		</div>
+
+		<div id="kontak">
+			<div class="kontak">				
+			<h2 align="center">KONTAK KAMI</h2>
+			<form>
+				<table class="tablekontak">
+					<br>
+					<tr>
+						<td style="padding-right: 35px;">Nama Lengkap</td>
+						<td><input type="text" name="Nama" size="40"></td>
+					</tr>
+					<tr>
+						<td>E-mail</td>
+						<td><input type="text" name="E-mail" size="40"></td>
+					</tr>
+					<tr>
+						<td>No. HP</td>
+						<td><input type="text" name="No.HP" size="40"></td>
+					</tr>
+					<tr>
+						<td>Kota</td>
+						<td><input type="text" name="Kota" size="40"></td>
+					</tr>
+					<tr>
+						<td>Pesan</td>
+						<td><textarea name="komentar" cols="85" rows="10"></textarea></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<br>
+							<input type="submit" name="submit" value="kirim" />
+							<input type="submit" name="submit" value="reset" />
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+		<div id="footer"> &copy 2019, by Teknik Unsam </div>
+	</div>
+</body>
+</html>

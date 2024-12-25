@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Membuat layout dengan css (Sample 2)</title>
+<style type="text/css">
+#header { 
+ border:1px solid #000000; 
+ background-color:#000000; 
+ padding: 10px 
+ } 
+
+#menusamping { 
+ float:right; 
+ } 
+
+.navigasi { 
+ border:1px solid #000; 
+ margin-top: 10px; 
+ padding: 10px; 
+ background: yellow; 
+ }
+
+#menu {
+	background: skyblue;
+	margin-bottom: 10px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	word-spacing: 20px;
+}
+
+#menu a:link{
+	background-color: #FFFF00;
+	color: #000099;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+#menu a:hover{
+	background-color: #0000CC;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 16px;
+}
+
+#menu a:active {
+	color: #000000;
+	background-color: FFFFFF;
+	font-weight: 100;
+}
+
+#menu ul{
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+h1 { 
+ color: #FFFFFF; 
+ font-size: 40px; 
+ line-height: 5px; 
+ } 
+
+body { 
+ background: url(background.jpg); 
+ }
+
+#isi { 
+ width:550px; 
+ margin-top: 10px; 
+ margin-bottom:10px; 
+ padding:10px; 
+ border:1px solid #000; 
+ background: white; 
+ }
+
+#isi p { 
+ text-align: justify; 
+ line-height: 18px; 
+ margin-top: 0px; 
+ }
+
+.gambar { 
+ float: left; 
+ margin-top: 0px; 
+ margin-right: 10px; 
+ margin-bottom: 20px; 
+ margin-left: 0px; 
+ border: 1px solid #000000; 
+ }
+
+#content { 
+ width: 750px; 
+ margin: auto; /* membuat posisi di tengah */ 
+ }
+
+#footer { 
+ padding:30px; 
+ border:1px solid #000000; 
+ background-color:#BC8F8F; 
+ 
+ }
+
+#bottom {
+	text-align: center;
+	font-family: Geneva;
+	font-size: 16px;
+	margin: 1px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	word-spacing: 5x;
+} 
+
+#bottom a {
+	color: blue;
+}
+
+#bottom a:link {
+	text-decoration: none;
+}
+
+#bottom a:hover{
+	text-decoration: underline;
+	color: #FFFF00;
+}
+
+
+#marquee {
+	text-align: justify;
+	font-weight: bold;
+}
+
+</style>
+</head>
+<body>
+	<div id="content"> 
+		<div id="header"> 
+		 <h1>welcome to my site</h1> 
+		 </div> 
+		 <div id="menu">
+		 	<ul>
+		 		<a href="#">About</a>
+		 		<a href="#">Content</a>
+		 		<a href="#">Profile</a>
+		 		<a href="#">Guest Book</a>
+		 	</ul>
+		 </div>
+		 
+	<div id="menusamping"> 
+	<div class="navigasi"> 
+	<h3>Menu Navigasi A</h3> 
+		 <ul> 
+		 <li><a href="link1.htm">Link 1</a></li> 
+		 <li><a href="link2.htm">Link 2</a></li> 
+		 <li><a href="link3.htm">Link 3</a></li> 
+		 <li><a href="link4.htm">Link 4</a></li> 
+		 </ul>
+	</div> 
+	<div class="navigasi"> 
+	<h3>Menu Navigasi B</h3> 
+		 <ul> 
+		 <li><a href="link1.htm">Link 1</a></li> 
+		 <li><a href="link2.htm">Link 2</a></li> 
+		 <li><a href="link3.htm">Link 3</a></li> 
+		 <li><a href="link4.htm">Link 4</a></li> 
+	</ul> 
+	</div> 
+	 
+	 </div> 
+	 <div id="isi"> 
+	 <img src="sunset.jpg" class="gambar" /> 
+	 <p>Ini adalah bagian isi. Ini adalah bagian isi. Ini adalah 
+	 bagian isi. Ini adalah bagian isi. Ini adalah bagian isi. Ini 
+	 adalah bagian isi. Ini adalah bagian isi. Ini adalah bagian 
+	 isi. Ini adalah bagian isi. Ini adalah bagian isi. Ini adalah 
+	 bagian isi. Ini adalah bagian isi. Ini adalah bagian isi. Ini 
+	 adalah bagian isi. Ini adalah bagian isi. Ini adalah bagian 
+	 isi. Ini adalah bagian isi. 
+	 </p> 
+	 
+	 <p>Ini adalah bagian isi. Ini adalah bagian isi. Ini adalah 
+	 bagian isi. Ini adalah bagian isi. Ini adalah bagian isi. Ini 
+	 adalah bagian isi. Ini adalah bagian isi. Ini adalah bagian 
+	 isi. Ini adalah bagian isi. Ini adalah bagian isi. Ini adalah 
+	 bagian isi. Ini adalah bagian isi. Ini adalah bagian isi. Ini 
+	 adalah bagian isi. Ini adalah bagian isi. Ini adalah bagian 
+	 isi. Ini adalah bagian isi. 
+	 </p> 
+	 <p>Ini adalah bagian isi. Ini adalah bagian isi. Ini adalah 
+	 bagian isi. Ini adalah bagian isi. Ini adalah bagian isi. Ini 
+	 adalah bagian isi. Ini adalah bagian isi. Ini adalah bagian 
+	 isi. Ini adalah bagian isi. Ini adalah bagian isi. Ini adalah 
+	 bagian isi. Ini adalah bagian isi. Ini adalah bagian isi. Ini 
+	 adalah bagian isi. Ini adalah bagian isi. Ini adalah bagian 
+	 isi. Ini adalah bagian isi. 
+	 </p> 
+	 </div> 
+	 
+	 <div id="footer"> 
+	 	<div id="bottom">
+	 		<a href="#">About</a>
+		 	<a href="#">Content</a>
+		 	<a href="#">Profile</a>
+		 	<a href="#">Guest Book</a>
+			
+			<div id="marquee">
+				<marquee bgcolor="white">
+					<font color="red">Copyright&copy; 2024 M. Albi Febriano_230504025</font>
+				</marquee>
+			</div>
+	 	</div>
+	  
+	 </div> 
+</div>
+</body>
+</html>
